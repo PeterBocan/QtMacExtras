@@ -69,6 +69,9 @@ int main(int argc, char *argv[])
     popup->addItems(items);
     popup->setLabel("Popup button");
     toolbar->addItem(popup);
+    //QObject::connect(popup, &QtMacToolbarPopupButton::selected, [](int idx){
+    //    qDebug() << "item " << idx << endl;
+    //});
 
     QtMacToolbarFlexibleSpace* flexible = new QtMacToolbarFlexibleSpace();
     toolbar->addItem(flexible);
