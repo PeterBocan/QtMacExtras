@@ -16,10 +16,13 @@ Few quick notes:
 ## Requirements
  - XCode and Qt of course!
 
-## Example
+## Examples
+
+### Toolbar example
  - Bundled and shipped with source, look at ```main.cpp``` 
+
+ ![Toolbar image](./doc/FirstDemo.png)
 
 ## Contributions
  - Post your ideas into Issues page or use PRs.
  
- ![Demo image](./doc/FirstDemo.png)
